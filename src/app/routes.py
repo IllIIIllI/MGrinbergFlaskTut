@@ -4,7 +4,7 @@ from app import App
 
 
 @App.route('/')
-@App.route('/index.html')
+@App.route('/index')
 def index():
     user = {'username': 'Joe'}
     posts = [
